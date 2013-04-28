@@ -12,4 +12,6 @@ var aarlogic_gps_3t = require('../lib/aarlogic_gps_3t.js');
 //console.log(aarlogic_gps_3t.parse('$GPGSV,3,2,12,10,14,170,31,26,59,273,19,05,50,217,,09,46,228,*7A'));
 //console.log(aarlogic_gps_3t.parse('$GPGSV,3,3,12,15,19,285,,21,16,328,,19,13,052,26,06,11,012,*78'));
 
-console.log(aarlogic_gps_3t.parse('$GPVTG,,T,,M,0.00,N,0.0,K,A*13'));
+//console.log(aarlogic_gps_3t.parse('$GPVTG,,T,,M,0.00,N,0.0,K,A*13'));
+
+console.log(aarlogic_gps_3t.parse('$GPGSV,3,1,11,29,75,108,26,25,32,129,31,21,24,183,,05,20,076,26*7C'));
