@@ -1,0 +1,20 @@
+{
+  "name": "aarlogic_gps_3t",
+  "version": "0.0.1",
+  "description": "A library to parse the NMEA sentences produced by the AARLogic GPS 3T module",
+  "author": {
+    "name": "Werner Vesterås",
+    "email": "wvesteraas@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vesteraas/aarlogic_gps_3t"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec -t 60s -s 60s"
+  }
+}

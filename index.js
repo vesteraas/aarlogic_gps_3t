@@ -1,0 +1,1 @@
+module.exports = require('./lib/aarlogic_gps_3t.js');
